@@ -57,6 +57,7 @@ function App() {
   return (
     <>
       <form className="header" onSubmit={handleSubmit}>
+        <h1 className='title'>Dendrocabulary</h1>
         <div className="form-group">
           <label htmlFor="category">Category</label>
           <select id="category" ref={categoryEl}>
