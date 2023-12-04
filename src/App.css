@@ -7,17 +7,30 @@ body {
 .header {
   display: flex;
   align-items: center;
+  text-align: center;
+  justify-content: center;
   flex-wrap: wrap;
   background-color: #5d784e;
   padding: 0 1.5rem;
   box-shadow: 0 0 5px 2px rgba(0, 0, 0, .3);
 }
 
-.title {
+.category-select {
   display: flex;
-  justify-content: flex-start;
-  color: white;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   background-color: #5d784e;
+  padding: 0 1.5rem;
+}
+
+.title {
+  color: white;
+}
+
+.sub-title {
+  color:moccasin;
+  font-size: 1rem;
 }
 
 .container {
@@ -27,8 +40,8 @@ body {
 
 .form-group {
   display: flex;
-  flex-direction: column;
   justify-content: flex-end;
+  flex-direction: column;
   margin: .5rem;
 }
 
@@ -54,11 +67,12 @@ body {
 .card-grid {
   display: grid;
   align-items: center;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap: 1rem;
 }
 
 .card {
+  font-size: 1.2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -103,7 +117,7 @@ body {
 .flashcard-option {
   margin-top: .25rem;
   color: #555;
-  font-size: .75rem;
+  font-size: 1rem;
 }
 
 .flashcard-option:first-child {
