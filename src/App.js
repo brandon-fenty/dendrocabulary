@@ -56,13 +56,13 @@ function App() {
 
   return (
     <>
-      <div className="header" onSubmit={handleSubmit}>
-        <div>
-          <h1 className='title'>Dendrocabulary</h1>
-          <h2 className='sub-title'>A study aid for tree and shrub identification</h2>
+      <div>
+        
+        <form className="header" onSubmit={handleSubmit}>
+        <div className='title'>
+          <h1>Dendrocabulary</h1>
+          <h2 className='sub-title'>A Study Aid for Tree and Shrub Identification</h2>
         </div>
-      </div>
-      <form className='category-select'>
           <div className="form-group">
             <label htmlFor="category">Category</label>
             <select id="category" ref={categoryEl}>
@@ -73,14 +73,15 @@ function App() {
           </div>
           <div className="form-group">
             <label htmlFor="amount">Number of Questions</label>
-            <input type="number" id="amount" min="1" step="1" defaultValue={10} max={20} ref={amountEl} />
+            <input type="number" id="amount" min="1" step="1" defaultValue={10} ref={amountEl} />
           </div>
           <div className="form-group">
             <button className="btn">Generate</button>
           </div>
         </form>
-      <div className="container">
-        <FlashcardList flashcards={flashcards} />
+        <div className="container">
+          <FlashcardList flashcards={flashcards} />
+        </div>
       </div>
     </>
   );
