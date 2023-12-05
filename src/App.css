@@ -1,38 +1,128 @@
-.App {
-  text-align: center;
+body {
+  background-image: url(./images/forest_background.jpg);
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-img {
+  height: auto; 
+  width: auto; 
+  max-width: 400px; 
+  max-height: 400px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: wrap;
+  padding: 0 1.5rem;
+  background-color: #5d784e;
+}
+
+.title {
   color: white;
+  justify-content: center;
+  text-align: center;
+  background-color: #5d784e;
 }
 
-.App-link {
-  color: #61dafb;
+.sub-title {
+  color:moccasin;
+  font-size: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+  max-width: 100%;
+  margin: 1rem 20rem;
+  margin-top: 10rem;
+}
+
+.button-container {
+  display: flex;
+  padding-top: 1rem;
+  justify-content: center;
+}
+
+.btn {
+  background-color: #5d784e;
+  color: white;
+  font-size: 1rem;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, .3);
+  padding: .5em 1em;
+  border-radius: .3em;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #5d786e;
+}
+
+.card-grid {
+  display: flex;
+  align-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: .25rem;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, .3);
+  background-color: white;
+  transform-style: preserve-3d;
+  transition: 150ms;
+  cursor: pointer;
+  transform: perspective(1000px) rotateY(var(--rotate-y, 0)) translateY(var(--translate-y, 0));
+}
+
+.card-text {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.card .front,
+.card .back {
+  align-content: center;
+  position: absolute;
+  padding: 1rem;
+  backface-visibility: hidden;
+}
+
+.card:hover {
+  --translate-y: -2px;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, .5);
+}
+
+.card.flip {
+  --rotate-y: 180deg;
+}
+
+.card .front {
+  left: 0;
+}
+
+.card .back {
+  transform: rotateY(180deg);
+}
+
+.flashcard-options {
+  margin-top: .5rem;
+}
+
+.flashcard-option {
+  margin-top: .25rem;
+  color: #555;
+  font-size: 1rem;
+}
+
+.flashcard-option:first-child {
+  margin-top: 0;
 }

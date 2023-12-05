@@ -1,0 +1,158 @@
+[
+    {
+      "id": 1,
+      "image_url": "thujaplicata1.jpg",
+      "question": "What is the Latin name for Western red-cedar?",
+      "answer": "Thuja plicata"
+    },
+    {
+      "id": 2,
+      "image_url": "lodgepole.jpeg",
+      "question": "What is the Latin name for lodgepole pine?",
+      "answer": "Pinus contorta"
+    },
+    {
+      "id": 3,
+      "image_url": "dougfir.jpg",
+      "question": "What is the common name for Pseudotsuga menziseii?",
+      "answer": "Douglas-fir"
+    },
+    {
+      "id": 4,
+      "image_url": "larch.jpg",
+      "question": "What is the common name for Larix occidentalis?",
+      "answer": "Western larch"
+    },
+    {
+      "id": 5,
+      "image_url": "redalder.jpg",
+      "question": "What is the common name for Alnus rubra?",
+      "answer": "Red alder"
+    },
+    {
+      "id": 6,
+      "image_url": "ponderosa.jpg",
+      "question": "What is the Latin name for Ponderosa pine?",
+      "answer": "Pinus ponderosa"
+    },
+    {
+      "id": 7,
+      "image_url": "whemlock.jpg",
+      "question": "What is the common name for Tsuga heterophylla?",
+      "answer": "Western hemlock"
+    },
+    {
+      "id": 8,
+      "image_url": "grandfir.jpg",
+      "question": "What is the Latin name for Grand fir?",
+      "answer": "Abies grandis"
+    },
+    {
+      "id": 9,
+      "image_url": "maple.jpg",
+      "question": "What is the Latin name for Big leaf maple?",
+      "answer": "Acer macrophyllum"
+    },
+    {
+      "id": 10,
+      "image_url": "mhemlock.jpg",
+      "question": "What is the Latin name for Mountain hemlock?",
+      "answer": "Tsuga mertensiana"
+    },
+    {
+      "id": 11,
+      "image_url": "silverfir.jpg",
+      "question": "What is the common name for Abies amabilis?",
+      "answer": "Pacific silver-fir"
+    },
+    {
+      "id": 12,
+      "image_url": "subalpine.jpg",
+      "question": "What is the Latin name for Subalpine fir?",
+      "answer": "Abies lasiocarpa"
+    },
+    {
+      "id": 13,
+      "image_url": "yellowcedar.jpg",
+      "question": "What is the common name for Chamaecyparis nootkatensis?",
+      "answer": "Alaska yellow-cedar"
+    },
+    {
+      "id": 14,
+      "image_url": "wwhite.jpg",
+      "question": "What is the Latin name for Western white pine?",
+      "answer": "Pinus monticola"
+    },
+    {
+      "id": 15,
+      "image_url": "yew.jpg",
+      "question": "What is the common name for Taxus brevifolia?",
+      "answer": "Pacific yew"
+    },
+    {
+      "id": 16,
+      "image_url": "madrone.jpg",
+      "question": "What is the Latin name for Pacific madrone?",
+      "answer": "Abrutus menziesii"
+    },
+    {
+      "id": 17,
+      "image_url": "noble.jpg",
+      "question": "What is the common name for Abies procera?",
+      "answer": "Noble fir"
+    },
+    {
+      "id": 18,
+      "image_url": "sitka.jpg",
+      "question": "What is the Latin name for Sitka spruce?",
+      "answer": "Picea sitchensis"
+    },
+    {
+      "id": 19,
+      "image_url": "cottonwood.jpg",
+      "question": "What is the common name for Populus trichocarpa?",
+      "answer": "Black cottonwood"
+    },
+    {
+      "id": 20,
+      "image_url": "hazel.jpg",
+      "question": "What is the Latin name for Beaked hazelnut? (Natures toiletpaper)",
+      "answer": "Corylus cornuta"
+    },
+    {
+      "id": 21,
+      "image_url": "simple_arr.png",
+      "question": "What type of leaf composition is this?",
+      "answer": "Simple"
+    },
+    {
+      "id": 22,
+      "image_url": "pinn_arr.jpg",
+      "question": "What type of leaf composition is this?",
+      "answer": "Pinnately compound"
+    },
+    {
+      "id": 23,
+      "image_url": "palm_arr.jpg",
+      "question": "What type of leaf composition is this?",
+      "answer": "Pinnately compound"
+    },
+    {
+      "id": 24,
+      "image_url": "alt_arr.png",
+      "question": "What type of leaf arrangment is this?",
+      "answer": "Alternate"
+    },
+    {
+      "id": 24,
+      "image_url": "alt_arr.png",
+      "question": "What type of leaf arrangment is this?",
+      "answer": "Alternate"
+    },
+    {
+      "id": 24,
+      "image_url": "opp_arr.jpg",
+      "question": "What type of leaf arrangment is this?",
+      "answer": "Opposite"
+    }
+]
