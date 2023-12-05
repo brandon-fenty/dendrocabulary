@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/dendrocabulary/static/css/main.6b86ab2a.css",
+    "main.js": "/dendrocabulary/static/js/main.100d2c21.js",
+    "static/media/maple.jpg": "/dendrocabulary/static/media/maple.4933ceecd67bfb059f89.jpg",
+    "static/media/forest_background.jpg": "/dendrocabulary/static/media/forest_background.e880e7ccf9904510cff7.jpg",
+    "static/media/lodgepole.jpeg": "/dendrocabulary/static/media/lodgepole.d4ad345ee61f6a90483c.jpeg",
+    "static/media/alt_arr.png": "/dendrocabulary/static/media/alt_arr.98496090daee29f4967f.png",
+    "static/media/redalder.jpg": "/dendrocabulary/static/media/redalder.79f5a62a74b392f11460.jpg",
+    "static/media/subalpine.jpg": "/dendrocabulary/static/media/subalpine.d8c4da59b34d9cc0e735.jpg",
+    "static/media/yew.jpg": "/dendrocabulary/static/media/yew.3ac3cafdf52524373d98.jpg",
+    "static/media/whemlock.jpg": "/dendrocabulary/static/media/whemlock.d5039e1db17d6d01d117.jpg",
+    "static/media/sitka.jpg": "/dendrocabulary/static/media/sitka.1b3ba204b85a47cd9ead.jpg",
+    "static/media/thujaplicata1.jpg": "/dendrocabulary/static/media/thujaplicata1.45be84270fc8663fa7ca.jpg",
+    "static/media/ponderosa.jpg": "/dendrocabulary/static/media/ponderosa.97c1a25973cf632bb238.jpg",
+    "static/media/yellowcedar.jpg": "/dendrocabulary/static/media/yellowcedar.2c894f394458c88dbabc.jpg",
+    "static/media/grandfir.jpg": "/dendrocabulary/static/media/grandfir.a89757fda71c61679fd3.jpg",
+    "static/media/hazel.jpg": "/dendrocabulary/static/media/hazel.c780f49971497a133a8e.jpg",
+    "static/media/noble.jpg": "/dendrocabulary/static/media/noble.1171372aa166f3422a9b.jpg",
+    "static/media/madrone.jpg": "/dendrocabulary/static/media/madrone.73478cbe5168e59fdc5d.jpg",
+    "static/media/simple_arr.png": "/dendrocabulary/static/media/simple_arr.d5f48b7471c01f0fcc22.png",
+    "static/media/opp_arr.gif": "/dendrocabulary/static/media/opp_arr.bfcb90d17a47fcb34ce1.gif",
+    "static/media/opp_arr.jpg": "/dendrocabulary/static/media/opp_arr.bfcb90d17a47fcb34ce1.jpg",
+    "static/media/wwhite.jpg": "/dendrocabulary/static/media/wwhite.09c75fdd8419fd9ccfc4.jpg",
+    "static/media/larch.jpg": "/dendrocabulary/static/media/larch.2f873bddbb0953290c2d.jpg",
+    "static/media/silverfir.jpg": "/dendrocabulary/static/media/silverfir.d70b8c2001c9309b2667.jpg",
+    "static/media/mhemlock.jpg": "/dendrocabulary/static/media/mhemlock.d768d05097ad0d836a44.jpg",
+    "static/media/cottonwood.jpg": "/dendrocabulary/static/media/cottonwood.508691cbe1e38d79e7e9.jpg",
+    "static/media/palm_arr.jpg": "/dendrocabulary/static/media/palm_arr.118762fb474aca9e256e.jpg",
+    "static/media/pinn_arr.jpg": "/dendrocabulary/static/media/pinn_arr.1d9a0ca547434c1c24cd.jpg",
+    "static/media/dougfir.jpg": "/dendrocabulary/static/media/dougfir.97d696c873b66ea652ea.jpg",
+    "index.html": "/dendrocabulary/index.html",
+    "main.6b86ab2a.css.map": "/dendrocabulary/static/css/main.6b86ab2a.css.map",
+    "main.100d2c21.js.map": "/dendrocabulary/static/js/main.100d2c21.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b86ab2a.css",
+    "static/js/main.100d2c21.js"
+  ]
+}
