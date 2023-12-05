@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './App.css';
 import questions from './data/questions.json';
-
 function App() {
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
   const [flip, setFlip] = useState(false)
@@ -29,14 +28,8 @@ function App() {
     setCurrentCardIndex((prevIndex) => (prevIndex - 1 + flashcards.length) % flashcards.length);
   };
 
-  useEffect(setMaxHeight, [
-    flashcards[currentCardIndex].image_url,
-    flashcards[currentCardIndex].question,
-    flashcards[currentCardIndex].answer])
-  useEffect(() => {
-    window.addEventListener('resize', setMaxHeight)
-    return () => window.removeEventListener('resize', setMaxHeight)
-  }, [])
+  const imageName = flashcards[currentCardIndex].image_url;
+  console.log(imageName)
 
   return (
     <div className="app">
@@ -49,23 +42,29 @@ function App() {
       {flashcards.length > 0 && (
         <div className='container'>
           <div className= {`card ${flip ? 'flip' : ''}`}
-            style={{ height: height }}
+            style={{ height: 400}}
             onClick={() => setFlip(!flip)}
           >
               <div className='front' ref={frontEl}>
-                {/* <image url={flashcards[currentCardIndex].image.url} /> */}
-                {flashcards[currentCardIndex].question}
+                <img className='card-img' src={require(`./images/${imageName}`)}></img>
+                <br/>
+                <div className='card-text'>
+                  {flashcards[currentCardIndex].question}
+                </div>
               </div>
               <div className='back' ref={backEl}>
-                {/* <image url={flashcards[currentCardIndex].image.url} /> */}
-                {flashcards[currentCardIndex].answer}
+                <img className='card-img' src={require(`./images/${imageName}`)}></img>
+                <br/>
+                <div className='card-text'>
+                  {flashcards[currentCardIndex].answer}
+                </div>
               </div>
           </div>
         </div>
       )}
       <div className="button-container">
-        <button className='btn' onClick={handlePrevCard}>Previous</button>
-        <button className='btn' onClick={handleNextCard}>Next</button>
+        <button className='btn' onClick={handlePrevCard}>Previous Card</button>
+        <button className='btn' onClick={handleNextCard}>Next Card</button>
       </div>
     </div>
   );

@@ -1,14 +1,14 @@
 [
     {
       "id": 1,
-      "image_url": "",
+      "image_url": "thujaplicata1.jpg",
       "question": "What is the latin name for Western red-cedar?",
       "answer": "Thuja plicata"
     },
     {
       "id": 2,
-      "image_url": "",
-      "question": "What is the latin name for Western lodgepole pine?",
+      "image_url": "lodgepole.jpeg",
+      "question": "What is the latin name for lodgepole pine?",
       "answer": "Pinus contorta"
     }
 ]
