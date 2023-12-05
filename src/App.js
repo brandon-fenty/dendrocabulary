@@ -29,6 +29,7 @@ function App() {
 
   useEffect(() => {
     const mountCards = shuffle(unshufCards);
+    //const mountCards = unshufCards;
     setFlashcards(mountCards);
   }, []);
 

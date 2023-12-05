@@ -148,5 +148,125 @@
       "image_url": "opp_arr.jpg",
       "question": "What type of leaf arrangment is this?",
       "answer": "Opposite"
+    },
+    {
+      "id": 26,
+      "image_url": "ovate.gif",
+      "question": "What type of leaf shape is this?",
+      "answer": "ovate"
+    },
+    {
+      "id": 27,
+      "image_url": "orbicular.gif",
+      "question": "What type of leaf shape is this?",
+      "answer": "orbicular"
+    },
+    {
+      "id": 28,
+      "image_url": "scalelike.gif",
+      "question": "What type of leaf shape is this?",
+      "answer": "scale-like"
+    },
+    {
+      "id": 29,
+      "image_url": "acicular.jpg",
+      "question": "What type of leaf shape is this?",
+      "answer": "acicular"
+    },
+    {
+      "id": 30,
+      "image_url": "lanceolate.gif",
+      "question": "What type of leaf shape is this?",
+      "answer": "lanceolate"
+    },
+    {
+      "id": 31,
+      "image_url": "deltoid.jpg",
+      "question": "What type of leaf shape is this?",
+      "answer": "deltoid"
+    },
+    {
+      "id": 32,
+      "image_url": "oblong.jpg",
+      "question": "What type of leaf shape is this?",
+      "answer": "oblong"
+    },
+    {
+      "id": 33,
+      "image_url": "elliptical.jpg",
+      "question": "What type of leaf shape is this?",
+      "answer": "elliptical"
+    },
+    {
+      "id": 34,
+      "image_url": "cordate.gif",
+      "question": "What type of leaf shape is this?",
+      "answer": "cordate"
+    },
+    {
+      "id": 35,
+      "image_url": "serrate.png",
+      "question": "What type of leaf margin is this?",
+      "answer": "serrate"
+    },
+    {
+      "id": 36,
+      "image_url": "entire.jpg",
+      "question": "What type of leaf margin is this?",
+      "answer": "entire"
+    },
+    {
+      "id": 37,
+      "image_url": "pinnlobe.gif",
+      "question": "What type of leaf margin is this?",
+      "answer": "pinnately lobed"
+    },
+    {
+      "id": 38,
+      "image_url": "revolute.png",
+      "question": "What type of leaf margin is this?",
+      "answer": "revolute"
+    },
+    {
+      "id": 39,
+      "image_url": "imbricate.jpg",
+      "question": "What type of bud scales are these?",
+      "answer": "imbricate"
+    },
+    {
+      "id": 40,
+      "image_url": "lenticils.jpg",
+      "question": "What are the white wart like growths called?",
+      "answer": "lenticils"
+    },
+    {
+      "id": 41,
+      "image_url": "valvate.jpg",
+      "question": "What type of bud scales are these?",
+      "answer": "valvate"
+    },
+    {
+      "id": 42,
+      "image_url": "terminalbudscar.jpeg",
+      "question": "What is the circled area called?",
+      "answer": "terminal bud scars"
+    },
+    {
+      "id": 43,
+      "image_url": "prickles.jpg",
+      "question": "Are this prickles, spines, or thorns?",
+      "answer": "prickles"
+    },
+    {
+      "id": 44,
+      "image_url": "thorns.jpg",
+      "question": "Are this prickles, spines, or thorns?",
+      "answer": "thorns"
+    },
+    {
+      "id": 45,
+      "image_url": "spines.JPG",
+      "question": "Are this prickles, spines, or thorns?",
+      "answer": "spines"
     }
 ]
