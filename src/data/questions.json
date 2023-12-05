@@ -144,13 +144,7 @@
       "answer": "Alternate"
     },
     {
-      "id": 24,
-      "image_url": "alt_arr.png",
-      "question": "What type of leaf arrangment is this?",
-      "answer": "Alternate"
-    },
-    {
-      "id": 24,
+      "id": 25,
       "image_url": "opp_arr.jpg",
       "question": "What type of leaf arrangment is this?",
       "answer": "Opposite"
