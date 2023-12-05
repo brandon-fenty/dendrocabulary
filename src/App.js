@@ -1,24 +1,45 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './App.css';
 import questions from './data/questions.json';
+
+const unshufCards = Object.keys(questions).map(v => ({
+  key: v,
+  ...questions[v]
+}));
+
+function shuffle(arr) {
+  var ctr = arr.length,
+    temp,
+    index;
+  while (ctr > 0) {
+    index = Math.floor(Math.random() * ctr);
+    ctr--;
+    temp = arr[ctr];
+    arr[ctr] = arr[index];
+    arr[index] = temp;
+  }
+  return arr;
+}
+
 function App() {
+  const refresh = () => window.location.reload(false);
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
   const [flip, setFlip] = useState(false)
-  const [height, setHeight] = useState('initial')
+  const [flashcards, setFlashcards] = useState(unshufCards);
+
+  useEffect(() => {
+    const mountCards = shuffle(unshufCards);
+    setFlashcards(mountCards);
+  }, []);
+
+  function handleShuffle() {
+    const changes = shuffle([...flashcards]);
+    setFlashcards(changes);
+    console.log("Shuffle", unshufCards);
+  }
 
   const frontEl = useRef()
   const backEl = useRef()
-
-  function setMaxHeight() {
-    const frontHeight = frontEl.current.getBoundingClientRect().height
-    const backHeight = backEl.current.getBoundingClientRect().height
-    setHeight(Math.max(frontHeight, backHeight, 100))
-  }
-  
-  const flashcards = Object.keys(questions).map(v => ({
-      key: v,
-      ...questions[v]
-  }));
 
   const handleNextCard = () => {
     setCurrentCardIndex((prevIndex) => (prevIndex + 1) % flashcards.length);
@@ -65,6 +86,7 @@ function App() {
       <div className="button-container">
         <button className='btn' onClick={handlePrevCard}>Previous Card</button>
         <button className='btn' onClick={handleNextCard}>Next Card</button>
+        <button className='btn' onClick={handleShuffle}>Shuffle</button>
       </div>
     </div>
   );
